@@ -4,8 +4,7 @@ import {
   BadgeCheck,
   Bell,
   ChevronsUpDown,
-  CreditCard,
-  LogOut,
+  LogOut, Settings2,
   Sparkles,
 } from "lucide-react"
 
@@ -29,6 +28,7 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
+import {SettingsDialog} from "@/components/settings-dialog";
 
 export function NavUser({
   user,
@@ -93,8 +93,9 @@ export function NavUser({
                 Account
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <CreditCard />
-                Billing
+                <Settings2 />
+                Settings
+                <SettingsDialog/>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Bell />
