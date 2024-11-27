@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import {ArchiveX, Command, Compass, File, Inbox, MessageSquare, MessagesSquare, Rss, Send, Trash2, Users} from "lucide-react"
+import {Command, Compass, Inbox, MessageSquare, Rss, Users} from "lucide-react"
 
 import { NavUser } from "@/components/nav-user"
 import { Label } from "@/components/ui/label"
